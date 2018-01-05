@@ -1,7 +1,6 @@
 {
   "name": "ts-fe",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -17,5 +16,21 @@
   "devDependencies": {
     "bs-jest": "^0.3.2",
     "reason-react": "^0.3.0"
-  }
+  },
+  "description": "Frontend for toystori using reasonml",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toystori/v2-frontend.git"
+  },
+  "author": "Pradip Caulagi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toystori/v2-frontend/issues"
+  },
+  "homepage": "https://github.com/toystori/v2-frontend#readme",
+  "keywords": [
+    "toys",
+    "children",
+    "parents"
+  ]
 }
