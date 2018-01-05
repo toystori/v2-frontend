@@ -4,15 +4,14 @@ Frontend for toystori using [reasonml](https://reasonml.github.io/)
 
 ## Local setup
 
-
-** Dependencies **
+**Dependencies**
 
 ```bash
 npm install -g yarn
 yarn install
 ```
 
-** Everyday tasks **
+**Everyday tasks**
 
 ```bash
   yarn start
