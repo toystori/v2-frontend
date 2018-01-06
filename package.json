@@ -7,7 +7,7 @@
     "reason-scripts": "0.8.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "FORCE_COLOR=true react-scripts start | cat -",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
