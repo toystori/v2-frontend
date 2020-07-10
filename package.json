@@ -1,36 +1,37 @@
 {
-  "name": "ts-fe",
-  "version": "0.1.0",
-  "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "reason-scripts": "0.8.0"
-  },
+  "name": "PutaniGaluApp",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "start": "FORCE_COLOR=true react-scripts start | cat -",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "prepare": "npm link bs-platform"
+    "start": "react-native start",
+    "ios": "react-native run-ios",
+    "android": "react-native run-android",
+    "re:clean": "bsb -clean-world",
+    "re:watch": "bsb -clean-world -make-world -w",
+    "re:build": "bsb -clean-world -make-world",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-native": "^0.61.0",
+    "reason-react": "^0.7.0",
+    "reason-react-native": "^0.61.0"
   },
   "devDependencies": {
-    "bs-jest": "^0.3.2",
-    "reason-react": "^0.3.0"
+    "@babel/core": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.9.0",
+    "bs-platform": "^7.0.0",
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "react-test-renderer": "16.9.0"
   },
-  "description": "Frontend for toystori using reasonml",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/toystori/v2-frontend.git"
-  },
-  "author": "Pradip Caulagi",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/toystori/v2-frontend/issues"
-  },
-  "homepage": "https://github.com/toystori/v2-frontend#readme",
-  "keywords": [
-    "toys",
-    "children",
-    "parents"
-  ]
+  "jest": {
+    "preset": "react-native",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?react-native|react-(native|universal|navigation)-(.*)|@react-native-community/(.*)|@react-navigation/(.*)|bs-platform)"
+    ]
+  }
 }
