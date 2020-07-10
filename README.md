@@ -1,25 +1,16 @@
-# v2-frontend
+# PutaniGaluApp
 
-Frontend for toystori using [reasonml](https://reasonml.github.io/)
+Native and web app for putanigalu using [reason-react-native](https://reason-react-native.github.io/)
 
 ## Local setup
 
-**Dependencies**
+```shell
+  yarn
+    install dependencies
 
-```bash
-npm install -g yarn
-yarn install
-```
+  yarn bsb -make-world -w
+    build and watch react files
 
-**Everyday tasks**
-
-```bash
-  yarn start
-    Starts the development server.
-
-  yarn build
-    Bundles the app into static files for production.
-
-  yarn test
-    Starts the test runner.
+  yarn ios
+    run app in xcode simulator
 ```
