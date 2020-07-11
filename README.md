@@ -1,6 +1,7 @@
 # PutaniGaluApp
 
-Native and web app for putanigalu using [reason-react-native](https://reason-react-native.github.io/)
+Native and web app for putanigalu using
+[reason-react-native](https://reason-react-native.github.io/)
 
 ## Local setup
 
