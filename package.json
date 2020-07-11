@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "format:most": "prettier --write \"**/*.{md,json,js,css}\"",
+    "format:re": "find . -name \"*.re\" -or -name \"*.rei\" | grep -v \"node_modules\" | xargs bsrefmt --in-place",
+    "format": "yarn format:most && yarn format:re",
     "start": "react-native start",
     "ios": "react-native run-ios",
     "android": "react-native run-android",
