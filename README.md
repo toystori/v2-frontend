@@ -8,8 +8,8 @@ Native and web app for putanigalu using [reason-react-native](https://reason-rea
   yarn
     install dependencies
 
-  yarn bsb -make-world -w
-    build and watch react files
+  yarn re:build
+    build react files
 
   yarn ios
     run app in xcode simulator
