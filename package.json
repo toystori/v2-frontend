@@ -28,7 +28,7 @@
     "bs-platform": "^8.0.3",
     "eslint": "^7.4.0",
     "husky": "^4.2.5",
-    "jest": "^24.9.0",
+    "jest": "^26.1.0",
     "lint-staged": "^10.2.11",
     "metro-react-native-babel-preset": "^0.60.0",
     "react-test-renderer": "16.9.0"
