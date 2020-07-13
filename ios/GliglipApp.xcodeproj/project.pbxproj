@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* PutaniGaluAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PutaniGaluAppTests.m */; };
+		00E356F31AD99517003FC87E /* GliglipAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* GliglipAppTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -15,11 +15,11 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* PutaniGaluAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* PutaniGaluAppTests.m */; };
-		428E7C00A1DF1C1A2C1140EE /* libPods-PutaniGaluAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E943675B55A190041D9BC6 /* libPods-PutaniGaluAppTests.a */; };
-		5D9570ED1A0B682B5FF5E421 /* libPods-PutaniGaluApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 821EC82BD30472D6D387B788 /* libPods-PutaniGaluApp-tvOSTests.a */; };
-		A50903E452D634CE572F43CD /* libPods-PutaniGaluApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8486CCD792395AAD80956F45 /* libPods-PutaniGaluApp.a */; };
-		EFB606294F69E6FA304BD500 /* libPods-PutaniGaluApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8370FC4C13D1AE1CC8852B /* libPods-PutaniGaluApp-tvOS.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* GliglipAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* GliglipAppTests.m */; };
+		428E7C00A1DF1C1A2C1140EE /* libPods-GliglipAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E943675B55A190041D9BC6 /* libPods-GliglipAppTests.a */; };
+		5D9570ED1A0B682B5FF5E421 /* libPods-GliglipApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 821EC82BD30472D6D387B788 /* libPods-GliglipApp-tvOSTests.a */; };
+		A50903E452D634CE572F43CD /* libPods-GliglipApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8486CCD792395AAD80956F45 /* libPods-GliglipApp.a */; };
+		EFB606294F69E6FA304BD500 /* libPods-GliglipApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8370FC4C13D1AE1CC8852B /* libPods-GliglipApp-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +28,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = PutaniGaluApp;
+			remoteInfo = GliglipApp;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "PutaniGaluApp-tvOS";
+			remoteInfo = "GliglipApp-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* PutaniGaluAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PutaniGaluAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* GliglipAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GliglipAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* PutaniGaluAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PutaniGaluAppTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* PutaniGaluApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PutaniGaluApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PutaniGaluApp/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = PutaniGaluApp/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* GliglipAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GliglipAppTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* GliglipApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GliglipApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = GliglipApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = GliglipApp/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PutaniGaluApp/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = PutaniGaluApp/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = PutaniGaluApp/main.m; sourceTree = "<group>"; };
-		150E6CAFA5EF11AE47ED825C /* Pods-PutaniGaluAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PutaniGaluAppTests.release.xcconfig"; path = "Target Support Files/Pods-PutaniGaluAppTests/Pods-PutaniGaluAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* PutaniGaluApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PutaniGaluApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* PutaniGaluApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PutaniGaluApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		34E943675B55A190041D9BC6 /* libPods-PutaniGaluAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PutaniGaluAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		43307E7576B385875B79FCDF /* Pods-PutaniGaluAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PutaniGaluAppTests.debug.xcconfig"; path = "Target Support Files/Pods-PutaniGaluAppTests/Pods-PutaniGaluAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		664C331A95B54FA5B7AD4267 /* Pods-PutaniGaluApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PutaniGaluApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-PutaniGaluApp-tvOSTests/Pods-PutaniGaluApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		821EC82BD30472D6D387B788 /* libPods-PutaniGaluApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PutaniGaluApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8486CCD792395AAD80956F45 /* libPods-PutaniGaluApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PutaniGaluApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		914896C0CEFDAA592DADF952 /* Pods-PutaniGaluApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PutaniGaluApp.release.xcconfig"; path = "Target Support Files/Pods-PutaniGaluApp/Pods-PutaniGaluApp.release.xcconfig"; sourceTree = "<group>"; };
-		9D8370FC4C13D1AE1CC8852B /* libPods-PutaniGaluApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PutaniGaluApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A74FCF62A73172586BCD1E8C /* Pods-PutaniGaluApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PutaniGaluApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-PutaniGaluApp-tvOS/Pods-PutaniGaluApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		B932E4CF7C7ADA47E0C72933 /* Pods-PutaniGaluApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PutaniGaluApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-PutaniGaluApp-tvOSTests/Pods-PutaniGaluApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		BB1DF6C3AB03F9FA00E48CAE /* Pods-PutaniGaluApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PutaniGaluApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-PutaniGaluApp-tvOS/Pods-PutaniGaluApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GliglipApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GliglipApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = GliglipApp/main.m; sourceTree = "<group>"; };
+		150E6CAFA5EF11AE47ED825C /* Pods-GliglipAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GliglipAppTests.release.xcconfig"; path = "Target Support Files/Pods-GliglipAppTests/Pods-GliglipAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* GliglipApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GliglipApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* GliglipApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GliglipApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34E943675B55A190041D9BC6 /* libPods-GliglipAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GliglipAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43307E7576B385875B79FCDF /* Pods-GliglipAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GliglipAppTests.debug.xcconfig"; path = "Target Support Files/Pods-GliglipAppTests/Pods-GliglipAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		664C331A95B54FA5B7AD4267 /* Pods-GliglipApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GliglipApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-GliglipApp-tvOSTests/Pods-GliglipApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		821EC82BD30472D6D387B788 /* libPods-GliglipApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GliglipApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8486CCD792395AAD80956F45 /* libPods-GliglipApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GliglipApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		914896C0CEFDAA592DADF952 /* Pods-GliglipApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GliglipApp.release.xcconfig"; path = "Target Support Files/Pods-GliglipApp/Pods-GliglipApp.release.xcconfig"; sourceTree = "<group>"; };
+		9D8370FC4C13D1AE1CC8852B /* libPods-GliglipApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GliglipApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74FCF62A73172586BCD1E8C /* Pods-GliglipApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GliglipApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-GliglipApp-tvOS/Pods-GliglipApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		B932E4CF7C7ADA47E0C72933 /* Pods-GliglipApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GliglipApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-GliglipApp-tvOSTests/Pods-GliglipApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB1DF6C3AB03F9FA00E48CAE /* Pods-GliglipApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GliglipApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-GliglipApp-tvOS/Pods-GliglipApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		FFF78D79653DD86D05E4A780 /* Pods-PutaniGaluApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PutaniGaluApp.debug.xcconfig"; path = "Target Support Files/Pods-PutaniGaluApp/Pods-PutaniGaluApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FFF78D79653DD86D05E4A780 /* Pods-GliglipApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GliglipApp.debug.xcconfig"; path = "Target Support Files/Pods-GliglipApp/Pods-GliglipApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				428E7C00A1DF1C1A2C1140EE /* libPods-PutaniGaluAppTests.a in Frameworks */,
+				428E7C00A1DF1C1A2C1140EE /* libPods-GliglipAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A50903E452D634CE572F43CD /* libPods-PutaniGaluApp.a in Frameworks */,
+				A50903E452D634CE572F43CD /* libPods-GliglipApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFB606294F69E6FA304BD500 /* libPods-PutaniGaluApp-tvOS.a in Frameworks */,
+				EFB606294F69E6FA304BD500 /* libPods-GliglipApp-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D9570ED1A0B682B5FF5E421 /* libPods-PutaniGaluApp-tvOSTests.a in Frameworks */,
+				5D9570ED1A0B682B5FF5E421 /* libPods-GliglipApp-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* PutaniGaluAppTests */ = {
+		00E356EF1AD99517003FC87E /* GliglipAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* PutaniGaluAppTests.m */,
+				00E356F21AD99517003FC87E /* GliglipAppTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = PutaniGaluAppTests;
+			path = GliglipAppTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* PutaniGaluApp */ = {
+		13B07FAE1A68108700A75B9A /* GliglipApp */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,20 +133,20 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = PutaniGaluApp;
+			name = GliglipApp;
 			sourceTree = "<group>";
 		};
 		258E34A3BDFFFBF80D598187 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FFF78D79653DD86D05E4A780 /* Pods-PutaniGaluApp.debug.xcconfig */,
-				914896C0CEFDAA592DADF952 /* Pods-PutaniGaluApp.release.xcconfig */,
-				BB1DF6C3AB03F9FA00E48CAE /* Pods-PutaniGaluApp-tvOS.debug.xcconfig */,
-				A74FCF62A73172586BCD1E8C /* Pods-PutaniGaluApp-tvOS.release.xcconfig */,
-				B932E4CF7C7ADA47E0C72933 /* Pods-PutaniGaluApp-tvOSTests.debug.xcconfig */,
-				664C331A95B54FA5B7AD4267 /* Pods-PutaniGaluApp-tvOSTests.release.xcconfig */,
-				43307E7576B385875B79FCDF /* Pods-PutaniGaluAppTests.debug.xcconfig */,
-				150E6CAFA5EF11AE47ED825C /* Pods-PutaniGaluAppTests.release.xcconfig */,
+				FFF78D79653DD86D05E4A780 /* Pods-GliglipApp.debug.xcconfig */,
+				914896C0CEFDAA592DADF952 /* Pods-GliglipApp.release.xcconfig */,
+				BB1DF6C3AB03F9FA00E48CAE /* Pods-GliglipApp-tvOS.debug.xcconfig */,
+				A74FCF62A73172586BCD1E8C /* Pods-GliglipApp-tvOS.release.xcconfig */,
+				B932E4CF7C7ADA47E0C72933 /* Pods-GliglipApp-tvOSTests.debug.xcconfig */,
+				664C331A95B54FA5B7AD4267 /* Pods-GliglipApp-tvOSTests.release.xcconfig */,
+				43307E7576B385875B79FCDF /* Pods-GliglipAppTests.debug.xcconfig */,
+				150E6CAFA5EF11AE47ED825C /* Pods-GliglipAppTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -157,10 +157,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				8486CCD792395AAD80956F45 /* libPods-PutaniGaluApp.a */,
-				9D8370FC4C13D1AE1CC8852B /* libPods-PutaniGaluApp-tvOS.a */,
-				821EC82BD30472D6D387B788 /* libPods-PutaniGaluApp-tvOSTests.a */,
-				34E943675B55A190041D9BC6 /* libPods-PutaniGaluAppTests.a */,
+				8486CCD792395AAD80956F45 /* libPods-GliglipApp.a */,
+				9D8370FC4C13D1AE1CC8852B /* libPods-GliglipApp-tvOS.a */,
+				821EC82BD30472D6D387B788 /* libPods-GliglipApp-tvOSTests.a */,
+				34E943675B55A190041D9BC6 /* libPods-GliglipAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -175,9 +175,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* PutaniGaluApp */,
+				13B07FAE1A68108700A75B9A /* GliglipApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* PutaniGaluAppTests */,
+				00E356EF1AD99517003FC87E /* GliglipAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				258E34A3BDFFFBF80D598187 /* Pods */,
@@ -190,10 +190,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* PutaniGaluApp.app */,
-				00E356EE1AD99517003FC87E /* PutaniGaluAppTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* PutaniGaluApp-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* PutaniGaluApp-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* GliglipApp.app */,
+				00E356EE1AD99517003FC87E /* GliglipAppTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* GliglipApp-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* GliglipApp-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,9 +201,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* PutaniGaluAppTests */ = {
+		00E356ED1AD99517003FC87E /* GliglipAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PutaniGaluAppTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "GliglipAppTests" */;
 			buildPhases = (
 				D5C5B21107E23492DA9BDC94 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -215,14 +215,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = PutaniGaluAppTests;
-			productName = PutaniGaluAppTests;
-			productReference = 00E356EE1AD99517003FC87E /* PutaniGaluAppTests.xctest */;
+			name = GliglipAppTests;
+			productName = GliglipAppTests;
+			productReference = 00E356EE1AD99517003FC87E /* GliglipAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* PutaniGaluApp */ = {
+		13B07F861A680F5B00A75B9A /* GliglipApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PutaniGaluApp" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "GliglipApp" */;
 			buildPhases = (
 				CB3FE51FCBA30C6B8D6A3806 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -235,14 +235,14 @@
 			);
 			dependencies = (
 			);
-			name = PutaniGaluApp;
-			productName = PutaniGaluApp;
-			productReference = 13B07F961A680F5B00A75B9A /* PutaniGaluApp.app */;
+			name = GliglipApp;
+			productName = GliglipApp;
+			productReference = 13B07F961A680F5B00A75B9A /* GliglipApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* PutaniGaluApp-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* GliglipApp-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "PutaniGaluApp-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GliglipApp-tvOS" */;
 			buildPhases = (
 				777B3928177A0EE7EA1ABCF9 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -255,14 +255,14 @@
 			);
 			dependencies = (
 			);
-			name = "PutaniGaluApp-tvOS";
-			productName = "PutaniGaluApp-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* PutaniGaluApp-tvOS.app */;
+			name = "GliglipApp-tvOS";
+			productName = "GliglipApp-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* GliglipApp-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* PutaniGaluApp-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* GliglipApp-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "PutaniGaluApp-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GliglipApp-tvOSTests" */;
 			buildPhases = (
 				57F4EECD4004FE3420E6DF92 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -274,9 +274,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "PutaniGaluApp-tvOSTests";
-			productName = "PutaniGaluApp-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* PutaniGaluApp-tvOSTests.xctest */;
+			name = "GliglipApp-tvOSTests";
+			productName = "GliglipApp-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* GliglipApp-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -303,7 +303,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "PutaniGaluApp" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "GliglipApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -316,10 +316,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* PutaniGaluApp */,
-				00E356ED1AD99517003FC87E /* PutaniGaluAppTests */,
-				2D02E47A1E0B4A5D006451C7 /* PutaniGaluApp-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* PutaniGaluApp-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* GliglipApp */,
+				00E356ED1AD99517003FC87E /* GliglipAppTests */,
+				2D02E47A1E0B4A5D006451C7 /* GliglipApp-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* GliglipApp-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -402,7 +402,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PutaniGaluApp-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GliglipApp-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -424,7 +424,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PutaniGaluApp-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GliglipApp-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -446,7 +446,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PutaniGaluApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GliglipApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -468,7 +468,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PutaniGaluAppTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GliglipAppTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -520,7 +520,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* PutaniGaluAppTests.m in Sources */,
+				00E356F31AD99517003FC87E /* GliglipAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,7 +546,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* PutaniGaluAppTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* GliglipAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,12 +555,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* PutaniGaluApp */;
+			target = 13B07F861A680F5B00A75B9A /* GliglipApp */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* PutaniGaluApp-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* GliglipApp-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -572,7 +572,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = PutaniGaluApp;
+			path = GliglipApp;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -580,14 +580,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43307E7576B385875B79FCDF /* Pods-PutaniGaluAppTests.debug.xcconfig */;
+			baseConfigurationReference = 43307E7576B385875B79FCDF /* Pods-GliglipAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = PutaniGaluAppTests/Info.plist;
+				INFOPLIST_FILE = GliglipAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -597,17 +597,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PutaniGaluApp.app/PutaniGaluApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GliglipApp.app/GliglipApp";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 150E6CAFA5EF11AE47ED825C /* Pods-PutaniGaluAppTests.release.xcconfig */;
+			baseConfigurationReference = 150E6CAFA5EF11AE47ED825C /* Pods-GliglipAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = PutaniGaluAppTests/Info.plist;
+				INFOPLIST_FILE = GliglipAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -617,18 +617,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PutaniGaluApp.app/PutaniGaluApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GliglipApp.app/GliglipApp";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFF78D79653DD86D05E4A780 /* Pods-PutaniGaluApp.debug.xcconfig */;
+			baseConfigurationReference = FFF78D79653DD86D05E4A780 /* Pods-GliglipApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = PutaniGaluApp/Info.plist;
+				INFOPLIST_FILE = GliglipApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -636,18 +636,18 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = PutaniGaluApp;
+				PRODUCT_NAME = GliglipApp;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 914896C0CEFDAA592DADF952 /* Pods-PutaniGaluApp.release.xcconfig */;
+			baseConfigurationReference = 914896C0CEFDAA592DADF952 /* Pods-GliglipApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = PutaniGaluApp/Info.plist;
+				INFOPLIST_FILE = GliglipApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -655,14 +655,14 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = PutaniGaluApp;
+				PRODUCT_NAME = GliglipApp;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB1DF6C3AB03F9FA00E48CAE /* Pods-PutaniGaluApp-tvOS.debug.xcconfig */;
+			baseConfigurationReference = BB1DF6C3AB03F9FA00E48CAE /* Pods-GliglipApp-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -673,14 +673,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "PutaniGaluApp-tvOS/Info.plist";
+				INFOPLIST_FILE = "GliglipApp-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.PutaniGaluApp-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.GliglipApp-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -690,7 +690,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A74FCF62A73172586BCD1E8C /* Pods-PutaniGaluApp-tvOS.release.xcconfig */;
+			baseConfigurationReference = A74FCF62A73172586BCD1E8C /* Pods-GliglipApp-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -701,14 +701,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "PutaniGaluApp-tvOS/Info.plist";
+				INFOPLIST_FILE = "GliglipApp-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.PutaniGaluApp-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.GliglipApp-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -718,7 +718,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B932E4CF7C7ADA47E0C72933 /* Pods-PutaniGaluApp-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = B932E4CF7C7ADA47E0C72933 /* Pods-GliglipApp-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -728,24 +728,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "PutaniGaluApp-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "GliglipApp-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.PutaniGaluApp-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.GliglipApp-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PutaniGaluApp-tvOS.app/PutaniGaluApp-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GliglipApp-tvOS.app/GliglipApp-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 664C331A95B54FA5B7AD4267 /* Pods-PutaniGaluApp-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 664C331A95B54FA5B7AD4267 /* Pods-GliglipApp-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -755,17 +755,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "PutaniGaluApp-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "GliglipApp-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.PutaniGaluApp-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.GliglipApp-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PutaniGaluApp-tvOS.app/PutaniGaluApp-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GliglipApp-tvOS.app/GliglipApp-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -872,7 +872,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "PutaniGaluAppTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "GliglipAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -881,7 +881,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PutaniGaluApp" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "GliglipApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -890,7 +890,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "PutaniGaluApp-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GliglipApp-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -899,7 +899,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "PutaniGaluApp-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GliglipApp-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -908,7 +908,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "PutaniGaluApp" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "GliglipApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

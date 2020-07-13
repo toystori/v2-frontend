@@ -1,4 +1,4 @@
-package com.putanigaluapp;
+package com.gliglipapp;
 
 import android.app.Application;
 import android.util.Log;

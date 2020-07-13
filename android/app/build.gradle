@@ -128,7 +128,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.putanigaluapp"
+        applicationId "com.gliglipapp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
