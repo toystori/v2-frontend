@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'PutaniGaluApp' do
-  # Pods for PutaniGaluApp
+target 'GliglipApp' do
+  # Pods for GliglipApp
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -34,7 +34,7 @@ target 'PutaniGaluApp' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'PutaniGaluAppTests' do
+  target 'GliglipAppTests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -42,10 +42,10 @@ target 'PutaniGaluApp' do
   use_native_modules!
 end
 
-target 'PutaniGaluApp-tvOS' do
-  # Pods for PutaniGaluApp-tvOS
+target 'GliglipApp-tvOS' do
+  # Pods for GliglipApp-tvOS
 
-  target 'PutaniGaluApp-tvOSTests' do
+  target 'GliglipApp-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
