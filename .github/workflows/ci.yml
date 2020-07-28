@@ -16,20 +16,6 @@ jobs:
     - run: yarn
     - run: yarn re:build
     - run: yarn test
-  android:
-    name: Build android
-    runs-on: ubuntu-20.04
-    needs:
-    - test
-    steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-node@v2-beta
-      with:
-        node-version: '12'
-    - run: yarn
-    - run: yarn re:build
-    - run: adb devices
-    - run: npx react-native run-ios
   ios:
     name: Build ios
     needs:
