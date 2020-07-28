@@ -1,7 +1,6 @@
 name: CI
-
-on: [push]
-
+on:
+- push
 jobs:
   test:
     name: Build & test
@@ -9,14 +8,11 @@ jobs:
     strategy:
       matrix:
         node-version: [12.x, 14.x]
-
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
-        with:
-          node-version: ${{ matrix.node-version }}
-      - run: yarn
-      - run: yarn re:build
-      - run: yarn test
-        env:
-          CI: true
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2-beta
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: yarn
+    - run: yarn re:build
+    - run: yarn test
