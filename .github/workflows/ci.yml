@@ -28,7 +28,7 @@ jobs:
         node-version: '12'
     - run: yarn
     - run: yarn re:build
-    - run: yarn android
+    - run: adb devices
     - run: npx react-native run-ios
   ios:
     name: Build ios
