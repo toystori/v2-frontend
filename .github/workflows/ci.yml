@@ -17,7 +17,7 @@ jobs:
     - run: yarn re:build
     - run: yarn test
   android:
-    name: Build ios
+    name: Build android
     needs:
     - test
     runs-on: ubuntu-20.04
@@ -26,6 +26,9 @@ jobs:
     - uses: actions/setup-node@v2-beta
       with:
         node-version: '12'
+    - run: echo "y" | sudo ${ANDROID_HOME}/tools/bin/sdkmanager --install "system-images;android-30;google_apis;x86"
+    - run: ${ANDROID_HOME}/tools/android list targets
+    - run: ${ANDROID_HOME}/platform-tools/adb devices
     - run: yarn
     - run: yarn re:build
     - run: npx react-native run-android
