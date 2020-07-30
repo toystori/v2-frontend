@@ -26,11 +26,12 @@ jobs:
     - uses: actions/setup-node@v2-beta
       with:
         node-version: '12'
-    - run: ${ANDROID_HOME}/tools/bin/avdmanager create avd -n test -k "system-images;android-29;google_apis;x86"
+
     # - run: ${ANDROID_HOME}/tools/android list target
     # - run: ${ANDROID_HOME}/platform-tools/adb devices
     - run: yarn
     - run: yarn re:build
+    - run: ${ANDROID_HOME}/tools/bin/avdmanager create avd -n test -k "system-images;android-29;google_apis;x86"
     - run: npx react-native run-android
   ios:
     name: Build ios
