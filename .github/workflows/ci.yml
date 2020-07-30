@@ -23,7 +23,9 @@ jobs:
     runs-on: ubuntu-20.04
     env:
     #   JAVA_OPTS: "-XX:+IgnoreUnrecognizedVMOptions --add-modules java.se.ee"
-      SDKMANAGER_OPTS: "--add-modules java.se.ee"
+      # SDKMANAGER_OPTS: "--add-modules java.se.ee"
+      DEFAULT_JVM_OPTS: '"-Dcom.android.sdklib.toolsdir=${APP_HOME}" -XX:+IgnoreUnrecognizedVMOptions --add-modules java.se.ee'
+
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v2-beta
@@ -33,12 +35,10 @@ jobs:
     # - run: ${ANDROID_HOME}/platform-tools/adb devices
     - run: yarn
     - run: yarn re:build
-    - run: java -version
-    - uses: actions/setup-java@v1
-      with:
-        java-version: 8
+    # - uses: actions/setup-java@v1
+    #   with:
+    #     java-version: 8
     # - run: cd android && gradle build && cd ..
-    - run: echo ${ANDROID_HOME}
     - run: sudo ${ANDROID_HOME}/tools/bin/avdmanager create avd -n test -k "system-images;android-29;google_apis;x86"
     - uses: actions/setup-node@v2-beta
       with:
