@@ -13,6 +13,7 @@ jobs:
     - uses: actions/setup-node@v2-beta
       with:
         node-version: ${{ matrix.node-version }}
+    - run: which gradlew
     - run: yarn
     - run: yarn re:build
     - run: yarn test
@@ -26,7 +27,7 @@ jobs:
     - uses: actions/setup-node@v2-beta
       with:
         node-version: '12'
-
+    - run: which gradlew
     # - run: ${ANDROID_HOME}/tools/android list target
     # - run: ${ANDROID_HOME}/platform-tools/adb devices
     - run: yarn
