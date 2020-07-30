@@ -39,6 +39,7 @@ jobs:
     - uses: actions/setup-java@v1
       with:
         java-version: 8
+        distro: adoptopenjdk
     # - run: cd android && gradle build && cd ..
     - run: sudo ${ANDROID_HOME}/tools/bin/avdmanager create avd -n test -k "system-images;android-29;google_apis;x86"
     - uses: actions/setup-node@v2-beta
