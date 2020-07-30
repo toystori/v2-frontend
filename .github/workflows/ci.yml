@@ -21,9 +21,10 @@ jobs:
     needs:
     - test
     runs-on: ubuntu-20.04
-    # env:
+    env:
     #   JAVA_OPTS: "-XX:+IgnoreUnrecognizedVMOptions --add-modules java.se.ee"
-      # SDKMANAGER_OPTS: "--add-modules java.se.ee"
+      AVDMANAGER_OPTS: "--add-modules java.se.ee"
+    # SDKMANAGER_OPTS: "--add-modules java.se.ee"
       # DEFAULT_JVM_OPTS: '"-Dcom.android.sdklib.toolsdir=${APP_HOME}" -XX:+IgnoreUnrecognizedVMOptions --add-modules java.se.ee'
       # PATH: "${PATH}:${ANDROID_HOME}/tools/bin:${ANDROID_HOME}/platform-tools"
     steps:
@@ -39,10 +40,7 @@ jobs:
     #   with:
     #     java-version: 8
     # - run: cd android && gradle build && cd ..
-    - run: |
-        export PATH=${PATH}:${ANDROID_HOME}/tools/bin:${ANDROID_HOME}/platform-tools
-        sudo chmod a+x ${ANDROID_HOME}/tools/bin/avdmanager
-        sudo avdmanager create avd -n test -k "system-images;android-29;google_apis;x86"
+    - run: sudo ${ANDROID_HOME}/tools/bin/avdmanager create avd -n test -k "system-images;android-29;google_apis;x86"
     - uses: actions/setup-node@v2-beta
       with:
         node-version: '12'
