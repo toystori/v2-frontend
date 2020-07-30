@@ -25,7 +25,7 @@ jobs:
     #   JAVA_OPTS: "-XX:+IgnoreUnrecognizedVMOptions --add-modules java.se.ee"
       # SDKMANAGER_OPTS: "--add-modules java.se.ee"
       # DEFAULT_JVM_OPTS: '"-Dcom.android.sdklib.toolsdir=${APP_HOME}" -XX:+IgnoreUnrecognizedVMOptions --add-modules java.se.ee'
-      PATH: "${PATH}:${ANDROID_HOME}/tools/bin:${ANDROID_HOME}/platform-tools"
+      # PATH: "${PATH}:${ANDROID_HOME}/tools/bin:${ANDROID_HOME}/platform-tools"
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-node@v2-beta
