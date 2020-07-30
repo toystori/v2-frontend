@@ -21,7 +21,7 @@ jobs:
     needs:
     - test
     runs-on: ubuntu-20.04
-    env:
+    # env:
     #   JAVA_OPTS: "-XX:+IgnoreUnrecognizedVMOptions --add-modules java.se.ee"
       # SDKMANAGER_OPTS: "--add-modules java.se.ee"
       # DEFAULT_JVM_OPTS: '"-Dcom.android.sdklib.toolsdir=${APP_HOME}" -XX:+IgnoreUnrecognizedVMOptions --add-modules java.se.ee'
