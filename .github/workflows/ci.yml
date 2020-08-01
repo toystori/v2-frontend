@@ -43,6 +43,7 @@ jobs:
         architecture: x64
         jdkFile: ./adoptopenjdk-8.tar.gz
     # - run: cd android && gradle build && cd ..
+    - run: echo y | sudo $ANDROID_HOME/tools/bin/sdkmanager --verbose "${{ matrix.emu-version }}"
     - run: sudo ${ANDROID_HOME}/tools/bin/avdmanager create avd -n test -k "system-images;android-29;google_apis;x86"
     - uses: actions/setup-node@v2-beta
       with:
