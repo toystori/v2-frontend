@@ -36,16 +36,16 @@ jobs:
     # - run: ${ANDROID_HOME}/platform-tools/adb devices
     - run: yarn
     - run: yarn re:build
-    - name: Use specific Java version for sdkmanager to work
-      uses: joschi/setup-jdk@v1
-      with:
-        java-version: 'openjdk8'
-        architecture: 'x64'
-    # - run: curl -L -o adoptopenjdk-8.tar.gz 'https://api.adoptopenjdk.net/v3/binary/latest/8/ga/linux/x64/jdk/hotspot/normal/adoptopenjdk?project=jdk'
-    # - uses: actions/setup-java@v1
+    # - name: Use specific Java version for sdkmanager to work
+    #   uses: joschi/setup-jdk@v1
     #   with:
-    #     java-version: 8
-    #     architecture: x64
+    #     java-version: 'openjdk8'
+    #     architecture: 'x64'
+    # - run: curl -L -o adoptopenjdk-8.tar.gz 'https://api.adoptopenjdk.net/v3/binary/latest/8/ga/linux/x64/jdk/hotspot/normal/adoptopenjdk?project=jdk'
+    - uses: actions/setup-java@v1
+      with:
+        java-version: 8
+        architecture: x64
     #     jdkFile: ./adoptopenjdk-8.tar.gz
     # - run: cd android && gradle build && cd ..
     - run: echo y | $ANDROID_HOME/tools/bin/sdkmanager "system-images;android-29;google_apis;x86"
