@@ -16,7 +16,7 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* GliglipAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* GliglipAppTests.m */; };
-		428E7C00A1DF1C1A2C1140EE /* libPods-GliglipAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E943675B55A190041D9BC6 /* libPods-GliglipAppTests.a */; };
+		318DD9CEC83015B4139BDC9F /* libPods-GliglipApp-GliglipAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C099561BEE9ADA11CCE32AF /* libPods-GliglipApp-GliglipAppTests.a */; };
 		5D9570ED1A0B682B5FF5E421 /* libPods-GliglipApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 821EC82BD30472D6D387B788 /* libPods-GliglipApp-tvOSTests.a */; };
 		A50903E452D634CE572F43CD /* libPods-GliglipApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8486CCD792395AAD80956F45 /* libPods-GliglipApp.a */; };
 		EFB606294F69E6FA304BD500 /* libPods-GliglipApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D8370FC4C13D1AE1CC8852B /* libPods-GliglipApp-tvOS.a */; };
@@ -54,16 +54,18 @@
 		150E6CAFA5EF11AE47ED825C /* Pods-GliglipAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GliglipAppTests.release.xcconfig"; path = "Target Support Files/Pods-GliglipAppTests/Pods-GliglipAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* GliglipApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GliglipApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* GliglipApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GliglipApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		34E943675B55A190041D9BC6 /* libPods-GliglipAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GliglipAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43307E7576B385875B79FCDF /* Pods-GliglipAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GliglipAppTests.debug.xcconfig"; path = "Target Support Files/Pods-GliglipAppTests/Pods-GliglipAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		664C331A95B54FA5B7AD4267 /* Pods-GliglipApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GliglipApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-GliglipApp-tvOSTests/Pods-GliglipApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		821EC82BD30472D6D387B788 /* libPods-GliglipApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GliglipApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8486CCD792395AAD80956F45 /* libPods-GliglipApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GliglipApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C099561BEE9ADA11CCE32AF /* libPods-GliglipApp-GliglipAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GliglipApp-GliglipAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		914896C0CEFDAA592DADF952 /* Pods-GliglipApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GliglipApp.release.xcconfig"; path = "Target Support Files/Pods-GliglipApp/Pods-GliglipApp.release.xcconfig"; sourceTree = "<group>"; };
 		9D8370FC4C13D1AE1CC8852B /* libPods-GliglipApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GliglipApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74FCF62A73172586BCD1E8C /* Pods-GliglipApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GliglipApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-GliglipApp-tvOS/Pods-GliglipApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		B932E4CF7C7ADA47E0C72933 /* Pods-GliglipApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GliglipApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-GliglipApp-tvOSTests/Pods-GliglipApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BB1DF6C3AB03F9FA00E48CAE /* Pods-GliglipApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GliglipApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-GliglipApp-tvOS/Pods-GliglipApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D42CD847D2A1658BCC501616 /* Pods-GliglipApp-GliglipAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GliglipApp-GliglipAppTests.release.xcconfig"; path = "Target Support Files/Pods-GliglipApp-GliglipAppTests/Pods-GliglipApp-GliglipAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		E6E526885A300C146070946C /* Pods-GliglipApp-GliglipAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GliglipApp-GliglipAppTests.debug.xcconfig"; path = "Target Support Files/Pods-GliglipApp-GliglipAppTests/Pods-GliglipApp-GliglipAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		FFF78D79653DD86D05E4A780 /* Pods-GliglipApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GliglipApp.debug.xcconfig"; path = "Target Support Files/Pods-GliglipApp/Pods-GliglipApp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -74,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				428E7C00A1DF1C1A2C1140EE /* libPods-GliglipAppTests.a in Frameworks */,
+				318DD9CEC83015B4139BDC9F /* libPods-GliglipApp-GliglipAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +149,8 @@
 				664C331A95B54FA5B7AD4267 /* Pods-GliglipApp-tvOSTests.release.xcconfig */,
 				43307E7576B385875B79FCDF /* Pods-GliglipAppTests.debug.xcconfig */,
 				150E6CAFA5EF11AE47ED825C /* Pods-GliglipAppTests.release.xcconfig */,
+				E6E526885A300C146070946C /* Pods-GliglipApp-GliglipAppTests.debug.xcconfig */,
+				D42CD847D2A1658BCC501616 /* Pods-GliglipApp-GliglipAppTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -160,7 +164,7 @@
 				8486CCD792395AAD80956F45 /* libPods-GliglipApp.a */,
 				9D8370FC4C13D1AE1CC8852B /* libPods-GliglipApp-tvOS.a */,
 				821EC82BD30472D6D387B788 /* libPods-GliglipApp-tvOSTests.a */,
-				34E943675B55A190041D9BC6 /* libPods-GliglipAppTests.a */,
+				8C099561BEE9ADA11CCE32AF /* libPods-GliglipApp-GliglipAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -245,7 +249,6 @@
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "GliglipApp-tvOS" */;
 			buildPhases = (
 				777B3928177A0EE7EA1ABCF9 /* [CP] Check Pods Manifest.lock */,
-				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
 				2D02E4791E0B4A5D006451C7 /* Resources */,
@@ -285,12 +288,14 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = Facebook;
+				LastUpgradeCheck = 1130;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -305,7 +310,7 @@
 			};
 			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "GliglipApp" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -468,7 +473,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GliglipAppTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-GliglipApp-GliglipAppTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -476,25 +481,6 @@
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Start Packager";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		FD10A7F122414F3F0027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -580,7 +566,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43307E7576B385875B79FCDF /* Pods-GliglipAppTests.debug.xcconfig */;
+			baseConfigurationReference = E6E526885A300C146070946C /* Pods-GliglipApp-GliglipAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -603,7 +589,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 150E6CAFA5EF11AE47ED825C /* Pods-GliglipAppTests.release.xcconfig */;
+			baseConfigurationReference = D42CD847D2A1658BCC501616 /* Pods-GliglipApp-GliglipAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -680,7 +666,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.GliglipApp-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.GliglipApp-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -708,7 +694,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.GliglipApp-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.GliglipApp-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -735,7 +721,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.GliglipApp-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.GliglipApp-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GliglipApp-tvOS.app/GliglipApp-tvOS";
@@ -762,7 +748,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.GliglipApp-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.GliglipApp-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GliglipApp-tvOS.app/GliglipApp-tvOS";
@@ -774,6 +760,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -817,6 +804,12 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -827,6 +820,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -863,6 +857,12 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
