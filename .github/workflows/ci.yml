@@ -51,8 +51,8 @@ jobs:
     - run: echo y | $ANDROID_HOME/tools/bin/sdkmanager "system-images;android-29;google_apis;x86"
     - run: echo "no" | ${ANDROID_HOME}/tools/bin/avdmanager create avd -n test --force --device "Nexus 5X" -k 'system-images;android-29;google_apis;x86'
     - name: Start emulator
-      timeout-minutes: 5
-      continue-on-error: true
+      timeout-minutes: 10
+      # continue-on-error: true
       run: |
         export PATH=$PATH:$ANDROID_HOME/platform-tools
         # nohup $ANDROID_HOME/tools/bin/sdkmanager "platform-tools" "platforms;android-29"
