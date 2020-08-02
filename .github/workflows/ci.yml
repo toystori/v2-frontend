@@ -20,7 +20,7 @@ jobs:
     name: Build android
     needs:
     - test
-    runs-on: ubuntu-20.04
+    runs-on: macos-latest
     # env:
     #   JAVA_OPTS: "-XX:+IgnoreUnrecognizedVMOptions --add-modules java.se.ee"
       # AVDMANAGER_OPTS: "--add-modules java.se.ee"
