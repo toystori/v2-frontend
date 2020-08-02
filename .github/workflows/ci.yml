@@ -48,7 +48,7 @@ jobs:
     - run: |
         export PATH=$PATH:$ANDROID_HOME/platform-tools
         ${ANDROID_HOME}/emulator/emulator -list-avds
-        ${ANDROID_HOME}/emulator/emulator @emu &
+        ${ANDROID_HOME}/emulator/emulator @test &
         adb wait-for-device; adb shell 'while [[ -z $(getprop sys.boot_completed) ]]; do sleep 1; done;'; adb shell wm dismiss-keyguard
     - uses: actions/setup-node@v2-beta
       with:
