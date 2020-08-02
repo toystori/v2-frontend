@@ -20,7 +20,7 @@ jobs:
     name: Build android
     needs:
     - test
-    runs-on: macos-latest
+    runs-on: ubuntu-20.04
     # env:
     #   JAVA_OPTS: "-XX:+IgnoreUnrecognizedVMOptions --add-modules java.se.ee"
       # AVDMANAGER_OPTS: "--add-modules java.se.ee"
@@ -47,8 +47,8 @@ jobs:
     - run: ${ANDROID_HOME}/tools/bin/avdmanager create avd -n test -k "system-images;android-29;google_apis;x86" -c 1G -d 7 -f
     - run: |
         export PATH=$PATH:$ANDROID_HOME/platform-tools
-        ${ANDROID_HOME}/emulator/emulator @test &
-        # adb wait-for-device; adb shell 'while [[ -z $(getprop sys.boot_completed) ]]; do sleep 1; done;'; adb shell wm dismiss-keyguard
+        ${ANDROID_HOME}/emulator/emulator -avd test -no-audio -no-snapshot -no-window &
+        adb wait-for-device; adb shell 'while [[ -z $(getprop sys.boot_completed) ]]; do sleep 1; done;'; adb shell wm dismiss-keyguard
         npx react-native run-android
     # - uses: actions/setup-node@v2-beta
     #   with:
