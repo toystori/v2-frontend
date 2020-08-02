@@ -20,7 +20,7 @@ jobs:
     name: Build android
     needs:
     - test
-    runs-on: ubuntu-20.04
+    runs-on: macos-latest
     # env:
     #   JAVA_OPTS: "-XX:+IgnoreUnrecognizedVMOptions --add-modules java.se.ee"
       # AVDMANAGER_OPTS: "--add-modules java.se.ee"
@@ -36,21 +36,27 @@ jobs:
     # - run: ${ANDROID_HOME}/platform-tools/adb devices
     - run: yarn
     - run: yarn re:build
-    - run: curl -L -o adoptopenjdk-8.tar.gz 'https://api.adoptopenjdk.net/v3/binary/latest/8/ga/linux/x64/jdk/hotspot/normal/adoptopenjdk?project=jdk'
-    - uses: actions/setup-java@v1
+    - name: Use specific Java version for sdkmanager to work
+      uses: joschi/setup-jdk@v1
       with:
-        java-version: 8
-        architecture: x64
-        jdkFile: ./adoptopenjdk-8.tar.gz
+        java-version: 'openjdk8'
+        architecture: 'x64'
+    # - run: curl -L -o adoptopenjdk-8.tar.gz 'https://api.adoptopenjdk.net/v3/binary/latest/8/ga/linux/x64/jdk/hotspot/normal/adoptopenjdk?project=jdk'
+    # - uses: actions/setup-java@v1
+    #   with:
+    #     java-version: 8
+    #     architecture: x64
+    #     jdkFile: ./adoptopenjdk-8.tar.gz
     # - run: cd android && gradle build && cd ..
-    - run: echo y | sudo $ANDROID_HOME/tools/bin/sdkmanager "system-images;android-29;google_apis;x86"
-    - run: ${ANDROID_HOME}/tools/bin/avdmanager create avd -n test -k "system-images;android-29;google_apis;x86" -c 1G -d 7 -f
+    - run: echo y | $ANDROID_HOME/tools/bin/sdkmanager "system-images;android-29;google_apis;x86"
+    - run: echo "no" | ${ANDROID_HOME}/tools/bin/avdmanager create avd -n test --force --device "Nexus 5X" -k 'system-images;android-29;google_apis;x86'
     - name: Start emulator
-      timeout-minutes: 10
+      timeout-minutes: 5
+      continue-on-error: true
       run: |
         export PATH=$PATH:$ANDROID_HOME/platform-tools
-        sudo $ANDROID_HOME/tools/bin/sdkmanager "platform-tools" "platforms;android-29"
-        ${ANDROID_HOME}/emulator/emulator -avd test -no-audio -no-snapshot -no-window &
+        # nohup $ANDROID_HOME/tools/bin/sdkmanager "platform-tools" "platforms;android-29"
+        nohup ${ANDROID_HOME}/emulator/emulator -avd test -no-audio -no-snapshot -no-window &
         adb wait-for-device shell 'while [[ -z $(getprop sys.boot_completed | tr -d '\r') ]]; do sleep 1; done; input keyevent 82'
         npx react-native run-android
     # - uses: actions/setup-node@v2-beta
