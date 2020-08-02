@@ -48,7 +48,7 @@ jobs:
     - run: |
         export PATH=$PATH:$ANDROID_HOME/platform-tools
         ${ANDROID_HOME}/emulator/emulator -avd test -no-audio -no-snapshot -no-window &
-        adb wait-for-device; adb shell 'while [[ -z $(getprop sys.boot_completed) ]]; do sleep 1; done;'; adb shell wm dismiss-keyguard
+        adb wait-for-device shell 'while [[ -z $(getprop sys.boot_completed | tr -d '\r') ]]; do sleep 1; done; input keyevent 82'
         npx react-native run-android
     # - uses: actions/setup-node@v2-beta
     #   with:
