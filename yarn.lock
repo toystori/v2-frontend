@@ -5956,10 +5956,10 @@ readable-stream@^2.0.1, readable-stream@^2.2.2, readable-stream@~2.3.6:
     string_decoder "~1.1.1"
     util-deprecate "~1.0.1"
 
-reason-react-native@^0.62.2:
-  version "0.62.2"
-  resolved "https://registry.yarnpkg.com/reason-react-native/-/reason-react-native-0.62.2.tgz#c4ddf427deb0e217f6863c0509ff2e63230cb082"
-  integrity sha512-Oa5WXw2N6E2GXE6e7Vuz4dfkqhnyp2TvdBawHApHBydmzI5Q7GNpgDEiciz3qn3aFCCeEgocbrUdtfN7IACNUg==
+reason-react-native@^0.62.3:
+  version "0.62.3"
+  resolved "https://registry.yarnpkg.com/reason-react-native/-/reason-react-native-0.62.3.tgz#a2653e735b5a006c7efcb20dcdf0e2ebe922cf8f"
+  integrity sha512-PA//0AZVVEB8iJKjYxOoFarXrMhhr7H++k9n7SmwVNy+XeUtwCiTIytqi29dCILtfNieHfT7+WTPpEzg2koOBg==
 
 reason-react@^0.9.1:
   version "0.9.1"
